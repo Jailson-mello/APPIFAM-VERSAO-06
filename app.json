@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "splash": {
+      "image": "./assets/ifam4.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "AppExpoIfam",
+    "slug": "AppExpoIfam",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "648568ca-e40c-48b8-8655-0abf82b754b3"
+      }
+    },
+    "android": {
+      "package": "com.jailsonmello.AppExpoIfam"
+    }
+  }
+}
